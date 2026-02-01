@@ -41,3 +41,34 @@ body {
     box-shadow: 1px 1px 10px #8a8a8a;
 }
 
+.about{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 2rem 1rem;
+  margin-top: 2rem;
+}
+
+.about h2{
+  font-size: 3rem;
+  color: rgb(82, 82, 82);
+}
+.about p{
+  font-size: 1.8rem;
+  color: rgb(145, 145, 145);
+  margin-top: -1rem ;
+}
+
+#icons{
+  display: flex;
+  width: 100%;
+ 
+  justify-content: center;
+  gap: 1rem;
+  margin-top: -3rem;
+}
+#icons img{
+  width: 2.3rem;
+}
