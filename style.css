@@ -123,6 +123,13 @@ html, body {
   outline: 1px solid black;
 } */
 
-.red {
-  background-color: red;
+.first {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
+.first svg{
+  height: 2rem;
+}
+.icons {
+  gap: 2rem;
